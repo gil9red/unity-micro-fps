@@ -336,7 +336,7 @@ PrefabInstance:
     - target: {fileID: 2620131183356007192, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}
       propertyPath: m_Name
-      value: Pickup_Health (1)
+      value: Pickup_Health_Cookie
       objectReference: {fileID: 0}
     - target: {fileID: 2620131183356007199, guid: d40ae884302b6684a8b3b6f3d55a71ba,
         type: 3}
