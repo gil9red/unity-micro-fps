@@ -10,8 +10,6 @@ public class LocaleDropdown : MonoBehaviour
 
     IEnumerator Start()
     {
-Debug.LogWarning("dropdown: " + (dropdown is null));
-
         // Wait for the localization system to initialize
         yield return LocalizationSettings.InitializationOperation;
 
@@ -23,7 +21,7 @@ Debug.LogWarning("dropdown: " + (dropdown is null));
             var locale = LocalizationSettings.AvailableLocales.Locales[i];
             if (LocalizationSettings.SelectedLocale == locale)
                 selected = i;
-            options.Add(new TMP_Dropdown.OptionData(locale.name));
+            options.Add(new TMP_Dropdown.OptionData(locale.LocaleName));
         }
         
         dropdown.options = options;
