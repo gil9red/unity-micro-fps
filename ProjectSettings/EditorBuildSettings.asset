@@ -17,4 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FPS/Scenes/MainScene.unity
     guid: d794a2ef8ba31d847ad3c19d03e2ddb9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: f81357b6db6cec64c8c2c0a1a0b233c9,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 1e0ccd19f78f3d44ea29bfd5d04e4d9a,
+      type: 2}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text
+  m_TableCollectionNameGuidString: 3a4cb12aa384162469d38a2a887d362a
+  m_Entries:
+  - m_Id: 33598459904
+    m_Key: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171020636160
+    m_Key: SHADOWS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9512054411264
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/ControlPanel/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9612407328768
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/ControlPanel/Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9681072279552
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/ScreenshotPanel/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9764610232320
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/ScreenshotPanel/Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10733909692416
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/InvincibilityPanel/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10789664575488
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/FrameratePanel/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10867934482432
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/SensitivityPanel/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11356193411072
+    m_Key: MainScene/GameManager/GameHUD/HUD/PauseMenuInfo/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15584106369024
+    m_Key: InGameMenu/Prefab Mode in Context/InGameMenu/Canvas/MenuPanel/InnerPanel/Language/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5497714627439493174
+  references:
+    version: 2
+    RefIds:
+    - rid: 5497714627439493174
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1663272244711
