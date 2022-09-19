@@ -34,9 +34,9 @@ public static class Git
     public static string BuildVersionRaw => Run(@"describe --tags --long --match ""v[0-9]*""");
 
     /// <summary>
-    /// Example: "v0.0-2-g7c18d46" -> "0.0.2.r7c18d46"
+    /// Example: "v0.0-2-g7c18d46" -> "0.0.2.7c18d46"
     /// </summary>
-    public static string BuildVersionWithHash => BuildVersionRaw.Substring(1).Replace('-', '.').Replace('g', 'r');
+    public static string BuildVersionWithHash => BuildVersionRaw[1..].Replace('-', '.').Replace("g", "");
 
     /// <summary>
     /// Retrieves the build version from git based on the most recent matching tag and
@@ -52,7 +52,7 @@ public static class Git
             var version = BuildVersionRaw;
             // Remove initial 'v' and ending git commit hash.
             version = version.Replace('-', '.');
-            version = version.Substring(1, version.LastIndexOf('.') - 1);
+            version = version[1..version.LastIndexOf('.')];
             return version;
         }
     }
@@ -75,20 +75,18 @@ public static class Git
     /// </summary>
     public static string Run(string arguments)
     {
-        using (var process = new System.Diagnostics.Process())
+        using var process = new System.Diagnostics.Process();
+        var exitCode = process.Run(
+            @"git", arguments, Application.dataPath,
+            out var output, out var errors
+        );
+        if (exitCode == 0)
         {
-            var exitCode = process.Run(
-                @"git", arguments, Application.dataPath,
-                out var output, out var errors
-            );
-            if (exitCode == 0)
-            {
-                return output;
-            }
-            else
-            {
-                throw new GitException(exitCode, errors);
-            }
+            return output;
+        }
+        else
+        {
+            throw new GitException(exitCode, errors);
         }
     }
 }
