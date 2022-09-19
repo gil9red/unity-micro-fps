@@ -84,9 +84,7 @@ public static class Git
         {
             return output;
         }
-        else
-        {
-            throw new GitException(exitCode, errors);
-        }
+        
+        throw new GitException(exitCode, errors);
     }
 }
