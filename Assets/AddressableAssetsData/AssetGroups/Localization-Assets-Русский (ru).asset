@@ -10,20 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: "Localization-Assets-\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (ru)"
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: "Localization-Assets-\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (ru)"
   m_Data:
     m_SerializedData: []
-  m_GUID: b4509d983f2b7a048aee71f7e54b933b
-  m_SerializeEntries:
-  - m_GUID: ad4cd23321cd8404b87b9267fe114025
-    m_Address: Assets/Localization/My Assets/Images/ControlScheme_PopUp (ru).png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  m_ReadOnly: 0
+  m_GUID: 9ff7635692934c641a33851c033abe8f
+  m_SerializeEntries: []
+  m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: d359608c489f8b34d998fbbb968bed70, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 3ff603361cbec5642a3827958174e861, type: 2}
-    - {fileID: 11400000, guid: 11ac2a367075083498ba9020f7dbff91, type: 2}
+    - {fileID: 11400000, guid: 8d08f7055d01c8b408202f31cc977e7c, type: 2}
+    - {fileID: 11400000, guid: e364ef3d23f1e1d42ac180910ef5badc, type: 2}

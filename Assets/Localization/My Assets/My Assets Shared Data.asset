@@ -25,9 +25,18 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 1439339944857600
+    m_Key: MainScene/GameManager/InGameMenu/Canvas/ControlsImage/RawImage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440800032411648
+    m_Key: MainScene/GameManager/InGameMenu/Canvas/ControlsImage
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 5497714627439493145
+    - rid: 5497714704587423752
   m_KeyGenerator:
     rid: 5497714627439493144
   references:
@@ -46,5 +55,18 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - ru
+        - m_KeyId: 1439339944857600
+          m_TableCodes:
+          - ru
         m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 5497714704587423752
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 1440800032411648
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
