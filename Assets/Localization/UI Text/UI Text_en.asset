@@ -68,6 +68,14 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 2561627691929600
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2561705940865024
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

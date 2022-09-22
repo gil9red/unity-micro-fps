@@ -67,6 +67,14 @@ MonoBehaviour:
       (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 2561627691929600
+    m_Key: IntroMenu/Canvas/SettingsButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2561705940865024
+    m_Key: IntroMenu/Canvas/StartButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
