@@ -86,7 +86,7 @@ PlayerSettings:
   submitAnalytics: 1
   usePlayerLog: 1
   bakeCollisionMeshes: 0
-  forceSingleInstance: 0
+  forceSingleInstance: 1
   useFlipModelSwapchain: 1
   resizableWindow: 0
   useMacAppStoreValidation: 0
@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 0
     16:9: 1
     Others: 0
-  bundleVersion: 0.1.3.df5ca47
+  bundleVersion: 0.2.1.66cac23
   preloadedAssets:
   - {fileID: 11400000, guid: 1e0ccd19f78f3d44ea29bfd5d04e4d9a, type: 2}
   metroInputSource: 0
