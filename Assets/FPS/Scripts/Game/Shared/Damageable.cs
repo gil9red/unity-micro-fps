@@ -12,6 +12,8 @@ namespace Unity.FPS.Game
 
         public Health Health { get; private set; }
 
+        public AudioSource AudioOnDamaged;
+
         void Awake()
         {
             // find the health component either at the same level, or higher in the hierarchy
@@ -42,6 +44,11 @@ namespace Unity.FPS.Game
 
                 // apply the damages
                 Health.TakeDamage(totalDamage, damageSource);
+
+                if (AudioOnDamaged != null)
+                {
+                    AudioOnDamaged.Play();
+                }
             }
         }
     }

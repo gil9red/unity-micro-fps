@@ -41,10 +41,19 @@ MonoBehaviour:
     m_Key: MainScene/Hello/Canvas/Image 1
     m_Metadata:
       m_Items: []
+  - m_Id: 3589802416918528
+    m_Key: OnDamaged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3598551663759360
+    m_Key: PlayerOnDamaged
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 5497714627439493145
     - rid: 5497714704587423752
+    - rid: 5497714789096095755
   m_KeyGenerator:
     rid: 5497714627439493144
   references:
@@ -85,4 +94,18 @@ MonoBehaviour:
           - en
           - ru
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 5497714789096095755
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 3589802416918528
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 3598551663759360
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
