@@ -270,6 +270,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "unity-dependencies-hunter": {
+      "version": "https://github.com/AlexeyPerov/Unity-Dependencies-Hunter.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c090d2f1788953956fe55acea4d63460d4be524b"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
