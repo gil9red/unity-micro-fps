@@ -91,6 +91,10 @@ MonoBehaviour:
     m_Key: IntroMenu/Canvas/QuitButton/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 5007589127475200
+    m_Key: InGameMenu/InGameMenu/Canvas/MenuPanel/MainMenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

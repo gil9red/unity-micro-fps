@@ -2,6 +2,7 @@
 using Unity.FPS.Gameplay;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Unity.FPS.UI
