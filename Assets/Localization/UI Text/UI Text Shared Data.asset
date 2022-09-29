@@ -87,6 +87,10 @@ MonoBehaviour:
     m_Key: VERSION
     m_Metadata:
       m_Items: []
+  - m_Id: 4965638290264064
+    m_Key: IntroMenu/Canvas/QuitButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
