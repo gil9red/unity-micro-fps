@@ -76,7 +76,7 @@ MonoBehaviour:
         - rid: 5497714627439493131
         - rid: 5497714627439493132
         - rid: 5497714627439493133
-        - rid: 5497714627439493134
+        - rid: 5497714921156378638
         - rid: 5497714627439493135
         m_Formatters:
         - rid: 5497714627439493129
@@ -132,9 +132,6 @@ MonoBehaviour:
         asm: Unity.Localization}
     - rid: 5497714627439493133
       type: {class: XmlSource, ns: UnityEngine.Localization.SmartFormat.Extensions,
-        asm: Unity.Localization}
-    - rid: 5497714627439493134
-      type: {class: ReflectionSource, ns: UnityEngine.Localization.SmartFormat.Extensions,
         asm: Unity.Localization}
     - rid: 5497714627439493135
       type: {class: DefaultSource, ns: UnityEngine.Localization.SmartFormat.Extensions,
@@ -206,3 +203,6 @@ MonoBehaviour:
         - default
         - d
         - 
+    - rid: 5497714921156378638
+      type: {class: ReflectionSource, ns: UnityEngine.Localization.SmartFormat.Extensions,
+        asm: Unity.Localization}
