@@ -98,6 +98,18 @@ MonoBehaviour:
     m_Localized: Main Menu
     m_Metadata:
       m_Items: []
+  - m_Id: 5453709100175360
+    m_Localized: You WIN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5454274668515328
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5454747072974848
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

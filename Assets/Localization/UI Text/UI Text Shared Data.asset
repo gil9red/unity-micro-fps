@@ -95,6 +95,18 @@ MonoBehaviour:
     m_Key: InGameMenu/InGameMenu/Canvas/MenuPanel/MainMenuButton/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 5453709100175360
+    m_Key: WinScene/Canvas/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5454274668515328
+    m_Key: WinScene/Canvas/MenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5454747072974848
+    m_Key: WinScene/Canvas/RestartButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
