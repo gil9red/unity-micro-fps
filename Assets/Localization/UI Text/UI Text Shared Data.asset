@@ -107,6 +107,18 @@ MonoBehaviour:
     m_Key: WinScene/Canvas/RestartButton/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 5456425331445760
+    m_Key: LoseScene/Canvas/MenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5456568797614080
+    m_Key: LoseScene/Canvas/RestartButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5456617803862016
+    m_Key: LoseScene/Canvas/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

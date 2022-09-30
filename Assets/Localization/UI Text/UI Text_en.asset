@@ -110,6 +110,18 @@ MonoBehaviour:
     m_Localized: Play Again
     m_Metadata:
       m_Items: []
+  - m_Id: 5456425331445760
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5456568797614080
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5456617803862016
+    m_Localized: You LOSE
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
