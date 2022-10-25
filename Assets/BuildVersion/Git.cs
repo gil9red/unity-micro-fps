@@ -7,7 +7,10 @@ Code modified by Ilya Petrash (aka gil9red)
 */
 
 using System;
+using System.Text.RegularExpressions;
+
 using UnityEngine;
+
 
 /// <summary>
 /// GitException includes the error output from a Git.Run() command as well as the
@@ -34,9 +37,24 @@ public static class Git
     public static string BuildVersionRaw => Run(@"describe --tags --long --match ""v[0-9]*""");
 
     /// <summary>
-    /// Example: "v0.0-2-g7c18d46" -> "0.0.2.7c18d46"
+    /// Example: "v0.0-2-g7c18d46" -> "0.0.2 (7c18d46)"
     /// </summary>
-    public static string BuildVersionWithHash => BuildVersionRaw[1..].Replace('-', '.').Replace("g", "");
+    public static string BuildVersionWithHash
+    {
+        get
+        {
+            var version = BuildVersionRaw;
+
+            var regex = new Regex(@"^v(\d+)\.(\d+)-(\d+)-g(\w+)$");
+            var m = regex.Match(version);
+            if (!m.Success)
+            {
+                throw new Exception($"Invalid format: {version}!");
+            }
+            var g = m.Groups;
+            return $"{g[1]}.{g[2]}.{g[3]} ({g[4]})";
+        }
+    }
 
     /// <summary>
     /// Retrieves the build version from git based on the most recent matching tag and
